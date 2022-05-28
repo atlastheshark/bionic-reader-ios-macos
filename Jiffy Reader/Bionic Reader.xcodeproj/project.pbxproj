@@ -1,0 +1,959 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0425CE0828429C7200DA1473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425CE0728429C7200DA1473 /* AppDelegate.swift */; };
+		0425CE0A28429C7200DA1473 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425CE0928429C7200DA1473 /* SceneDelegate.swift */; };
+		0425CE0D28429C7200DA1473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE0B28429C7200DA1473 /* LaunchScreen.storyboard */; };
+		0425CE1028429C7200DA1473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE0E28429C7200DA1473 /* Main.storyboard */; };
+		0425CE1928429C7200DA1473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425CE1828429C7200DA1473 /* AppDelegate.swift */; };
+		0425CE1C28429C7200DA1473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE1A28429C7200DA1473 /* Main.storyboard */; };
+		0425CE2428429C7200DA1473 /* Bionic Reader Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0425CE2328429C7200DA1473 /* Bionic Reader Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0425CE2E28429C7200DA1473 /* Bionic Reader Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0425CE2D28429C7200DA1473 /* Bionic Reader Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0425CE3428429C7200DA1473 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 0425CDF728429C7100DA1473 /* Main.html */; };
+		0425CE3528429C7200DA1473 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 0425CDF728429C7100DA1473 /* Main.html */; };
+		0425CE3628429C7200DA1473 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0425CDF928429C7100DA1473 /* Icon.png */; };
+		0425CE3728429C7200DA1473 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0425CDF928429C7100DA1473 /* Icon.png */; };
+		0425CE3828429C7200DA1473 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0425CDFA28429C7100DA1473 /* Style.css */; };
+		0425CE3928429C7200DA1473 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0425CDFA28429C7100DA1473 /* Style.css */; };
+		0425CE3A28429C7200DA1473 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0425CDFB28429C7100DA1473 /* Script.js */; };
+		0425CE3B28429C7200DA1473 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0425CDFB28429C7100DA1473 /* Script.js */; };
+		0425CE3C28429C7200DA1473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425CDFC28429C7100DA1473 /* ViewController.swift */; };
+		0425CE3D28429C7200DA1473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425CDFC28429C7100DA1473 /* ViewController.swift */; };
+		0425CE3E28429C7200DA1473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0425CDFD28429C7200DA1473 /* Assets.xcassets */; };
+		0425CE3F28429C7200DA1473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0425CDFD28429C7200DA1473 /* Assets.xcassets */; };
+		0425CE4028429C7200DA1473 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425CDFF28429C7200DA1473 /* SafariWebExtensionHandler.swift */; };
+		0425CE4128429C7200DA1473 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425CDFF28429C7200DA1473 /* SafariWebExtensionHandler.swift */; };
+		0425CE5928429C7200DA1473 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE5328429C7200DA1473 /* js */; };
+		0425CE5A28429C7200DA1473 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE5428429C7200DA1473 /* popup.html */; };
+		0425CE5B28429C7200DA1473 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE5528429C7200DA1473 /* style.css */; };
+		0425CE5C28429C7200DA1473 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE5628429C7200DA1473 /* manifest.json */; };
+		0425CE5D28429C7200DA1473 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE5728429C7200DA1473 /* background.html */; };
+		0425CE5E28429C7200DA1473 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE5828429C7200DA1473 /* assets */; };
+		0425CE5F28429C7200DA1473 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE5328429C7200DA1473 /* js */; };
+		0425CE6028429C7200DA1473 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE5428429C7200DA1473 /* popup.html */; };
+		0425CE6128429C7200DA1473 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE5528429C7200DA1473 /* style.css */; };
+		0425CE6228429C7200DA1473 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE5628429C7200DA1473 /* manifest.json */; };
+		0425CE6328429C7200DA1473 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE5728429C7200DA1473 /* background.html */; };
+		0425CE6428429C7200DA1473 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 0425CE5828429C7200DA1473 /* assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0425CE2528429C7200DA1473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0425CDF128429C7100DA1473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0425CE2228429C7200DA1473;
+			remoteInfo = "Jiffy Reader Extension (iOS)";
+		};
+		0425CE2F28429C7200DA1473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0425CDF128429C7100DA1473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0425CE2C28429C7200DA1473;
+			remoteInfo = "Jiffy Reader Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0425CE4728429C7200DA1473 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0425CE2428429C7200DA1473 /* Bionic Reader Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0425CE4E28429C7200DA1473 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0425CE2E28429C7200DA1473 /* Bionic Reader Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0425CDF828429C7100DA1473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		0425CDF928429C7100DA1473 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0425CDFA28429C7100DA1473 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		0425CDFB28429C7100DA1473 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		0425CDFC28429C7100DA1473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0425CDFD28429C7200DA1473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0425CDFF28429C7200DA1473 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		0425CE0428429C7200DA1473 /* Bionic Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bionic Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0425CE0728429C7200DA1473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0425CE0928429C7200DA1473 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0425CE0C28429C7200DA1473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0425CE0F28429C7200DA1473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0425CE1128429C7200DA1473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0425CE1628429C7200DA1473 /* Bionic Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bionic Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0425CE1828429C7200DA1473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0425CE1B28429C7200DA1473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0425CE1D28429C7200DA1473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0425CE1E28429C7200DA1473 /* Jiffy Reader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Jiffy Reader.entitlements"; sourceTree = "<group>"; };
+		0425CE2328429C7200DA1473 /* Bionic Reader Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Bionic Reader Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0425CE2828429C7200DA1473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0425CE2D28429C7200DA1473 /* Bionic Reader Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Bionic Reader Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0425CE3228429C7200DA1473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0425CE3328429C7200DA1473 /* Jiffy Reader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Jiffy Reader.entitlements"; sourceTree = "<group>"; };
+		0425CE5328429C7200DA1473 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = ../../Resources/js; sourceTree = "<group>"; };
+		0425CE5428429C7200DA1473 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../Resources/popup.html; sourceTree = "<group>"; };
+		0425CE5528429C7200DA1473 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = style.css; path = ../../Resources/style.css; sourceTree = "<group>"; };
+		0425CE5628429C7200DA1473 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../Resources/manifest.json; sourceTree = "<group>"; };
+		0425CE5728429C7200DA1473 /* background.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = background.html; path = ../../Resources/background.html; sourceTree = "<group>"; };
+		0425CE5828429C7200DA1473 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../Resources/assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0425CE0128429C7200DA1473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0425CE1328429C7200DA1473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0425CE2028429C7200DA1473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0425CE2A28429C7200DA1473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0425CDF028429C7100DA1473 = {
+			isa = PBXGroup;
+			children = (
+				0425CDF528429C7100DA1473 /* Shared (App) */,
+				0425CDFE28429C7200DA1473 /* Shared (Extension) */,
+				0425CE0628429C7200DA1473 /* iOS (App) */,
+				0425CE1728429C7200DA1473 /* macOS (App) */,
+				0425CE2728429C7200DA1473 /* iOS (Extension) */,
+				0425CE3128429C7200DA1473 /* macOS (Extension) */,
+				0425CE0528429C7200DA1473 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0425CDF528429C7100DA1473 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				0425CDFC28429C7100DA1473 /* ViewController.swift */,
+				0425CDFD28429C7200DA1473 /* Assets.xcassets */,
+				0425CDF628429C7100DA1473 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		0425CDF628429C7100DA1473 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0425CDF728429C7100DA1473 /* Main.html */,
+				0425CDF928429C7100DA1473 /* Icon.png */,
+				0425CDFA28429C7100DA1473 /* Style.css */,
+				0425CDFB28429C7100DA1473 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0425CDFE28429C7200DA1473 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				0425CE5228429C7200DA1473 /* Resources */,
+				0425CDFF28429C7200DA1473 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		0425CE0528429C7200DA1473 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0425CE0428429C7200DA1473 /* Bionic Reader.app */,
+				0425CE1628429C7200DA1473 /* Bionic Reader.app */,
+				0425CE2328429C7200DA1473 /* Bionic Reader Extension.appex */,
+				0425CE2D28429C7200DA1473 /* Bionic Reader Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0425CE0628429C7200DA1473 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				0425CE0728429C7200DA1473 /* AppDelegate.swift */,
+				0425CE0928429C7200DA1473 /* SceneDelegate.swift */,
+				0425CE0B28429C7200DA1473 /* LaunchScreen.storyboard */,
+				0425CE0E28429C7200DA1473 /* Main.storyboard */,
+				0425CE1128429C7200DA1473 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		0425CE1728429C7200DA1473 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				0425CE1828429C7200DA1473 /* AppDelegate.swift */,
+				0425CE1A28429C7200DA1473 /* Main.storyboard */,
+				0425CE1D28429C7200DA1473 /* Info.plist */,
+				0425CE1E28429C7200DA1473 /* Jiffy Reader.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		0425CE2728429C7200DA1473 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				0425CE2828429C7200DA1473 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		0425CE3128429C7200DA1473 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				0425CE3228429C7200DA1473 /* Info.plist */,
+				0425CE3328429C7200DA1473 /* Jiffy Reader.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		0425CE5228429C7200DA1473 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0425CE5328429C7200DA1473 /* js */,
+				0425CE5428429C7200DA1473 /* popup.html */,
+				0425CE5528429C7200DA1473 /* style.css */,
+				0425CE5628429C7200DA1473 /* manifest.json */,
+				0425CE5728429C7200DA1473 /* background.html */,
+				0425CE5828429C7200DA1473 /* assets */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0425CE0328429C7200DA1473 /* Bionic Reader (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0425CE4828429C7200DA1473 /* Build configuration list for PBXNativeTarget "Bionic Reader (iOS)" */;
+			buildPhases = (
+				0425CE0028429C7200DA1473 /* Sources */,
+				0425CE0128429C7200DA1473 /* Frameworks */,
+				0425CE0228429C7200DA1473 /* Resources */,
+				0425CE4728429C7200DA1473 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0425CE2628429C7200DA1473 /* PBXTargetDependency */,
+			);
+			name = "Bionic Reader (iOS)";
+			productName = "Jiffy Reader (iOS)";
+			productReference = 0425CE0428429C7200DA1473 /* Bionic Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0425CE1528429C7200DA1473 /* Bionic Reader (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0425CE4F28429C7200DA1473 /* Build configuration list for PBXNativeTarget "Bionic Reader (macOS)" */;
+			buildPhases = (
+				0425CE1228429C7200DA1473 /* Sources */,
+				0425CE1328429C7200DA1473 /* Frameworks */,
+				0425CE1428429C7200DA1473 /* Resources */,
+				0425CE4E28429C7200DA1473 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0425CE3028429C7200DA1473 /* PBXTargetDependency */,
+			);
+			name = "Bionic Reader (macOS)";
+			productName = "Jiffy Reader (macOS)";
+			productReference = 0425CE1628429C7200DA1473 /* Bionic Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0425CE2228429C7200DA1473 /* Bionic Reader Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0425CE4428429C7200DA1473 /* Build configuration list for PBXNativeTarget "Bionic Reader Extension (iOS)" */;
+			buildPhases = (
+				0425CE1F28429C7200DA1473 /* Sources */,
+				0425CE2028429C7200DA1473 /* Frameworks */,
+				0425CE2128429C7200DA1473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bionic Reader Extension (iOS)";
+			productName = "Jiffy Reader Extension (iOS)";
+			productReference = 0425CE2328429C7200DA1473 /* Bionic Reader Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0425CE2C28429C7200DA1473 /* Bionic Reader Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0425CE4B28429C7200DA1473 /* Build configuration list for PBXNativeTarget "Bionic Reader Extension (macOS)" */;
+			buildPhases = (
+				0425CE2928429C7200DA1473 /* Sources */,
+				0425CE2A28429C7200DA1473 /* Frameworks */,
+				0425CE2B28429C7200DA1473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bionic Reader Extension (macOS)";
+			productName = "Jiffy Reader Extension (macOS)";
+			productReference = 0425CE2D28429C7200DA1473 /* Bionic Reader Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0425CDF128429C7100DA1473 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0425CE0328429C7200DA1473 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					0425CE1528429C7200DA1473 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					0425CE2228429C7200DA1473 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					0425CE2C28429C7200DA1473 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 0425CDF428429C7100DA1473 /* Build configuration list for PBXProject "Bionic Reader" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0425CDF028429C7100DA1473;
+			productRefGroup = 0425CE0528429C7200DA1473 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0425CE0328429C7200DA1473 /* Bionic Reader (iOS) */,
+				0425CE1528429C7200DA1473 /* Bionic Reader (macOS) */,
+				0425CE2228429C7200DA1473 /* Bionic Reader Extension (iOS) */,
+				0425CE2C28429C7200DA1473 /* Bionic Reader Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0425CE0228429C7200DA1473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0425CE3628429C7200DA1473 /* Icon.png in Resources */,
+				0425CE0D28429C7200DA1473 /* LaunchScreen.storyboard in Resources */,
+				0425CE3428429C7200DA1473 /* Main.html in Resources */,
+				0425CE3A28429C7200DA1473 /* Script.js in Resources */,
+				0425CE3E28429C7200DA1473 /* Assets.xcassets in Resources */,
+				0425CE1028429C7200DA1473 /* Main.storyboard in Resources */,
+				0425CE3828429C7200DA1473 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0425CE1428429C7200DA1473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0425CE3728429C7200DA1473 /* Icon.png in Resources */,
+				0425CE3928429C7200DA1473 /* Style.css in Resources */,
+				0425CE1C28429C7200DA1473 /* Main.storyboard in Resources */,
+				0425CE3B28429C7200DA1473 /* Script.js in Resources */,
+				0425CE3F28429C7200DA1473 /* Assets.xcassets in Resources */,
+				0425CE3528429C7200DA1473 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0425CE2128429C7200DA1473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0425CE6228429C7200DA1473 /* manifest.json in Resources */,
+				0425CE5F28429C7200DA1473 /* js in Resources */,
+				0425CE6128429C7200DA1473 /* style.css in Resources */,
+				0425CE6428429C7200DA1473 /* assets in Resources */,
+				0425CE6328429C7200DA1473 /* background.html in Resources */,
+				0425CE6028429C7200DA1473 /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0425CE2B28429C7200DA1473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0425CE5C28429C7200DA1473 /* manifest.json in Resources */,
+				0425CE5928429C7200DA1473 /* js in Resources */,
+				0425CE5B28429C7200DA1473 /* style.css in Resources */,
+				0425CE5E28429C7200DA1473 /* assets in Resources */,
+				0425CE5D28429C7200DA1473 /* background.html in Resources */,
+				0425CE5A28429C7200DA1473 /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0425CE0028429C7200DA1473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0425CE3C28429C7200DA1473 /* ViewController.swift in Sources */,
+				0425CE0828429C7200DA1473 /* AppDelegate.swift in Sources */,
+				0425CE0A28429C7200DA1473 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0425CE1228429C7200DA1473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0425CE3D28429C7200DA1473 /* ViewController.swift in Sources */,
+				0425CE1928429C7200DA1473 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0425CE1F28429C7200DA1473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0425CE4028429C7200DA1473 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0425CE2928429C7200DA1473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0425CE4128429C7200DA1473 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0425CE2628429C7200DA1473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0425CE2228429C7200DA1473 /* Bionic Reader Extension (iOS) */;
+			targetProxy = 0425CE2528429C7200DA1473 /* PBXContainerItemProxy */;
+		};
+		0425CE3028429C7200DA1473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0425CE2C28429C7200DA1473 /* Bionic Reader Extension (macOS) */;
+			targetProxy = 0425CE2F28429C7200DA1473 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0425CDF728429C7100DA1473 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0425CDF828429C7100DA1473 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		0425CE0B28429C7200DA1473 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0425CE0C28429C7200DA1473 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0425CE0E28429C7200DA1473 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0425CE0F28429C7200DA1473 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0425CE1A28429C7200DA1473 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0425CE1B28429C7200DA1473 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0425CE4228429C7200DA1473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0425CE4328429C7200DA1473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0425CE4528429C7200DA1473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 765M87ANK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bionic Reader Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hypertextcoffee.bionicreader.extension;
+				PRODUCT_NAME = "Bionic Reader Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0425CE4628429C7200DA1473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 765M87ANK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bionic Reader Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hypertextcoffee.bionicreader.extension;
+				PRODUCT_NAME = "Bionic Reader Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0425CE4928429C7200DA1473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 765M87ANK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bionic Reader";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hypertextcoffee.bionicreader;
+				PRODUCT_NAME = "Bionic Reader";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0425CE4A28429C7200DA1473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 765M87ANK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bionic Reader";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hypertextcoffee.bionicreader;
+				PRODUCT_NAME = "Bionic Reader";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0425CE4C28429C7200DA1473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Jiffy Reader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 765M87ANK5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Jiffy Reader Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hypertextcoffee.bionicreader.extension;
+				PRODUCT_NAME = "Bionic Reader Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0425CE4D28429C7200DA1473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Jiffy Reader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 765M87ANK5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Jiffy Reader Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hypertextcoffee.bionicreader.extension;
+				PRODUCT_NAME = "Bionic Reader Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0425CE5028429C7200DA1473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Jiffy Reader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 765M87ANK5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Jiffy Reader";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hypertextcoffee.bionicreader;
+				PRODUCT_NAME = "Bionic Reader";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0425CE5128429C7200DA1473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Jiffy Reader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 765M87ANK5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Jiffy Reader";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hypertextcoffee.bionicreader;
+				PRODUCT_NAME = "Bionic Reader";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0425CDF428429C7100DA1473 /* Build configuration list for PBXProject "Bionic Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0425CE4228429C7200DA1473 /* Debug */,
+				0425CE4328429C7200DA1473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0425CE4428429C7200DA1473 /* Build configuration list for PBXNativeTarget "Bionic Reader Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0425CE4528429C7200DA1473 /* Debug */,
+				0425CE4628429C7200DA1473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0425CE4828429C7200DA1473 /* Build configuration list for PBXNativeTarget "Bionic Reader (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0425CE4928429C7200DA1473 /* Debug */,
+				0425CE4A28429C7200DA1473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0425CE4B28429C7200DA1473 /* Build configuration list for PBXNativeTarget "Bionic Reader Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0425CE4C28429C7200DA1473 /* Debug */,
+				0425CE4D28429C7200DA1473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0425CE4F28429C7200DA1473 /* Build configuration list for PBXNativeTarget "Bionic Reader (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0425CE5028429C7200DA1473 /* Debug */,
+				0425CE5128429C7200DA1473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0425CDF128429C7100DA1473 /* Project object */;
+}

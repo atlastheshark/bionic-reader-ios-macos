@@ -6,7 +6,7 @@ For the meantime, this is only a macOS release. You can build for iOS but I cann
 
 Will aim to have signed and published on the App Store soon, so that you can easily install on both iOS and macOS
 
-Based on [ansh/bionic-reading](https://github.com/ansh/bionic-reading)
+Uses [ansh/bionic-reading](https://github.com/ansh/bionic-reading)
 
 # Installation Instructions
 - Download .zip file from Releases, and unzip

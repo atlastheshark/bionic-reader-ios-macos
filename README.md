@@ -3,6 +3,7 @@ Safari Extensnion to allow you to enable bionic reading on any website.
 Builds for both macOS and iOS.
 
 For the meantime, this is only a macOS release. You can build for iOS but I cannot distribute outside of the App Store.
+
 Will aim to have signed and published on the App Store soon, so that you can easily install on both iOS and macOS
 
 Based on [ansh/bionic-reading](https://github.com/ansh/bionic-reading)

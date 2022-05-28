@@ -1,1 +1,67 @@
-body{gap:14px;justify-content:center;min-width:170px}body,button{padding:10px}button{background:#3aa757;border:none;border-radius:2px;color:#fff;cursor:pointer}.modeLabel{display:none}:is([br-mode=on] #onModeLabel,[br-mode=off] #offModeLabel){display:initial}button:active{transform:scale(1.05)}#lineHeightLabel{padding-bottom:4px}#checkboxContainer{align-items:center;display:flex;justify-content:center;margin-top:10px}.w-100{width:100%}.flex{display:flex}.flex-column{flex-direction:column}.justify-between{justify-content:space-between}.align-items-center{align-items:center}
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:5px auto;
+}
+
+.button {
+    position: static;
+    top:15%;
+    background-color:#2572ee;
+
+}
+
+button:hover {
+    transition: 0.3s;
+}
+
+.modeLabel {
+    display: none
+}
+
+:is([br-mode=on] #onModeLabel, [br-mode=off] #offModeLabel) {
+    display: initial
+}
+
+button:active {
+    transform: scale(1.05);
+    background-color:#2572eece;
+}
+
+#lineHeightLabel {
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+#checkboxContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px
+    
+}
+
+.w-100 {
+    width: 100%
+}
+
+.flex {
+    display: flex
+}
+
+.flex-column {
+    flex-direction: column
+}
+
+.justify-between {
+    justify-content: space-between
+}
+
+.align-items-center {
+    align-items: center
+}

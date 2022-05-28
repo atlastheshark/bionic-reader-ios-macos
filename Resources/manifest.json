@@ -1,7 +1,7 @@
 {
-  "name": "Jiffy Reader",
-  "description": "An extension that allows for Bionic Reading on any webpage!",
-  "version": "1.0.0",
+  "name": "Bionic Reader",
+  "description": "Bionic Reading, for any webpage.",
+  "version": "0.1",
   "manifest_version": 2,
   "icons": {
     "16": "assets/icons/icon16.png",
@@ -15,7 +15,7 @@
   },
   "background": {
     "page": "background.html",
-    "persistent": true
+    "persistent": false
   },
   "content_scripts": [
     {

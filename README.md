@@ -1,5 +1,5 @@
 # Bionic Reader Safari Extension for macOS and iOS
-Safari Extensnion to allow you to enable bionic reading on any website. 
+Safari Extension to allow you to enable bionic reading on any website. 
 Builds for both macOS and iOS.
 
 For the meantime, this is only a macOS release. You can build for iOS but I cannot distribute outside of the App Store.

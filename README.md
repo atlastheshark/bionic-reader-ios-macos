@@ -17,7 +17,7 @@ Based on [ansh/bionic-reading](https://github.com/ansh/bionic-reading)
 You will have to open Bionic Reader once, and open it from the Security & Privacy menu in System Settings. 
 
 # Build Instructions
-- Clone repo using GitHub Desktop or xcode
+- Clone repo using GitHub Desktop or Xcode
 - Make sure you have both a Team and a Signing Certificate set on each of the build targets
 - Should build fine just as is, no other editing required.
 

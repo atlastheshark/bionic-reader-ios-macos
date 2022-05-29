@@ -5,16 +5,13 @@
 
 body {
     display:flex;
-    margin:25px;
-    text-align: center;
+    margin:10px;
 }
 
 .button {
     position: relative;
     background-color:#2572ee;
-    margin: 20px auto;
     text-align: center;
-
 }
 
 button:hover {
@@ -32,7 +29,6 @@ button:hover {
 button:active {
     background-color:#2572eece;
     transition: 0.3s;
-
 }
 
 #lineHeightLabel {

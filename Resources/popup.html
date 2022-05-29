@@ -5,9 +5,12 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="flex flex-column" br-mode=""><button id="toggleBtn"
-        class="w-100 flex flex-column align-items-center"><span style="font-family:sans-serif" font-size="large">Toggle</span><span id="onModeLabel"
-            class="modeLabel">off</span> <span id="offModeLabel" class="modeLabel">on</span></button>
+<body class="flex flex-column" br-mode="off"><button id="toggleBtn"
+        class="w-100 flex flex-column justify-between "><span style="" id="onModeLabel"
+            class="modeLabel"> Enabled</span> <span id="offModeLabel" class="modeLabel">Disabled</span></button>
+    <div id="checkboxContainer"><input type="checkbox" id="toggleBtn" name="toggle" /><label
+            for="toggleReadingMode">On by default</label></div>
+    <script defer="defer" src="js/popup.bundle.js?27b9cdc629be8a5b2559"></script>
     <div id="saccadesEdit" class="w-100"><label style="display: block" id="lineHeightLabel">Saccades interval: <span  style="font-family:sans-serif"
                 id="saccadesLabelValue"></span></label>
         <div class="slidecontainer"><input type="range" min="0" max="4" value="" class="slider" id="saccadesSlider" />
@@ -23,9 +26,6 @@
             <button id="lineHeightIncrease">Bigger</button> <button id="lineHeightReset">&circlearrowleft;</button>
         </div>
     </div>
-    <div id="checkboxContainer"><input type="checkbox" id="toggleReadingMode" name="toggle" /> <label
-            for="toggleReadingMode">On by default</label></div>
-    <script defer="defer" src="js/popup.bundle.js?27b9cdc629be8a5b2559"></script>
 </body>
 
 </html>

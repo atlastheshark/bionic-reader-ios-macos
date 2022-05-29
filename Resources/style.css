@@ -1,18 +1,19 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
+    font-family: system-ui;
 } 
 
 body {
     display:flex;
-    justify-content: center;
-    align-items: center;
-    margin:5px auto;
+    margin:25px;
+    text-align: center;
 }
 
 .button {
-    position: static;
-    top:15%;
+    position: relative;
     background-color:#2572ee;
+    margin: 20px auto;
+    text-align: center;
 
 }
 
@@ -29,13 +30,15 @@ button:hover {
 }
 
 button:active {
-    transform: scale(1.05);
     background-color:#2572eece;
+    transition: 0.3s;
+
 }
 
 #lineHeightLabel {
     padding-bottom: 4px;
     text-align: center;
+    font-family: system-ui;
 }
 
 #checkboxContainer {
@@ -43,6 +46,7 @@ button:active {
     display: flex;
     justify-content: center;
     margin-top: 10px
+    margin-bottom: 10px;
     
 }
 

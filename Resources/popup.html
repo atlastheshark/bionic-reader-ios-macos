@@ -5,27 +5,27 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="flex flex-column" br-mode="off"><button id="toggleBtn"
-        class="w-100 flex flex-column align-items-center"><span style="border: 1px margin:auto" id="onModeLabel"
+<body class="flex flex-column" br-mode=""><button id="toggleBtn"
+        class="w-100 flex flex-column align-items-center"><span></span><span id="onModeLabel"
             class="modeLabel">Enabled</span> <span id="offModeLabel" class="modeLabel">Disabled</span></button>
-    <div id="checkboxContainer"><input type="checkbox" id="toggleBtn" name="toggle" /><label
-            for="toggleReadingMode">On by default</label></div>
-    <script defer="defer" src="js/popup.bundle.js?27b9cdc629be8a5b2559"></script>
-    <div id="saccadesEdit" class="w-100"><label style="display: block" id="lineHeightLabel">Saccades interval: <span  style="font-family:sans-serif"
+    <div id="saccadesEdit" class="w-100"><label style="display: block" id="lineHeightLabel">Saccades interval: <span
                 id="saccadesLabelValue"></span></label>
-        <div class="slidecontainer"><input type="range" min="0" max="4" value="" class="slider" id="saccadesSlider" />
+        <div class="slidecontainer flex flex-column"><input type="range" min="0" max="4" value="" class="slider" id="saccadesSlider" />
         </div>
     </div>
-    <div id="fixationsEdit" class="w-100 align-items-center"><label style="display: block" id="lineHeightLabel">Fixations strength: <span style="font-family:sans-serif"
+    <div id="fixationsEdit" class="w-100"><label style="display: block" id="lineHeightLabel">Fixations strength: <span
                 id="fixationStrengthLabelValue"></span></label>
-        <div class="slidecontainer"><input type="range" min="1" max="3" value="" class="slider"
+        <div class="slidecontainer flex flex-column"><input type="range" min="1" max="3" value="" class="slider"
                 id="fixationStrengthSlider" /></div>
     </div>
     <div id="lineHeightEdit" class="w-100"><label style="display: block" id="lineHeightLabel">Line Height</label>
-        <div id="buttonGroup" class="w-100 flex justify-between"><button id="lineHeightdecrease">Smaller</button>
+        <div id="buttonGroup" class="w-100 flex flex-column"><button id="lineHeightdecrease">Smaller</button>
             <button id="lineHeightIncrease">Bigger</button> <button id="lineHeightReset">&circlearrowleft;</button>
         </div>
     </div>
+    <div id="checkboxContainer"><input type="checkbox" id="toggleReadingMode" name="toggle" /> <label
+            for="toggleReadingMode">Enabled by default</label></div>
+    <script defer="defer" src="js/popup.bundle.js?27b9cdc629be8a5b2559"></script>
 </body>
 
 </html>

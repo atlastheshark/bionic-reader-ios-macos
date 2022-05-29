@@ -1,11 +1,10 @@
 * {
-    box-sizing: content-box;
     font-family: system-ui;
 } 
 
 body {
     display:flex;
-    margin:10px;
+    margin:15px;
 }
 
 .button {
